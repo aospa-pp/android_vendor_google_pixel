@@ -19,37 +19,37 @@
     <allow-in-power-save-except-idle package="com.google.android.wfcactivation" />
 
     <!-- Allow ssr detector service in background -->
-    <allow-in-power-save package="com.google.SSRestartDetector" />
+    <!-- <allow-in-power-save package="com.google.SSRestartDetector" /> -->
 
     <!-- Allow connectivitymonitor service in background -->
-    <allow-in-power-save package="com.google.android.connectivitymonitor" />
+    <!-- <allow-in-power-save package="com.google.android.connectivitymonitor" /> -->
 
     <!-- Allow connectivitythermalpowermanager service in background -->
-    <allow-in-power-save package="com.google.android.connectivitythermalpowermanager" />
+    <!-- <allow-in-power-save package="com.google.android.connectivitythermalpowermanager" /> -->
 
     <!-- Allow iwlan service in backgroud-->
-    <allow-in-power-save package="com.google.android.iwlan" />
+    <!-- <allow-in-power-save package="com.google.android.iwlan" /> -->
 
     <!-- Allow ramdump uploader service in background -->
-    <allow-in-power-save package="com.android.ramdump" />
+    <!-- <allow-in-power-save package="com.android.ramdump" /> -->
 
     <!-- Whitelist log pkg so JobIntentService can work. b/71630894 -->
-    <allow-in-power-save-except-idle package="com.google.android.apps.carrier.log" />
+    <!-- <allow-in-power-save-except-idle package="com.google.android.apps.carrier.log" /> -->
 
     <!-- Whitelist so headless app JobIntentService can work. b/73250911 -->
-    <allow-in-power-save-except-idle package="com.google.android.carrier" />
+    <!-- <allow-in-power-save-except-idle package="com.google.android.carrier" /> -->
 
     <!-- Whitelist so headless app JobService can work. b/135126855 -->
     <!-- Allow CarrierWifi WifiScorerService to run in background. b/334906519 -->
-    <allow-in-power-save package="com.google.android.apps.carrier.carrierwifi" />
+    <!-- <allow-in-power-save package="com.google.android.apps.carrier.carrierwifi" /> -->
 
     <!-- These are telephony components that need to run in the background -->
-    <allow-in-power-save package="com.qualcomm.atfwd" />
-    <allow-in-power-save package="com.qualcomm.embms" />
-    <allow-in-power-save package="com.qualcomm.qti.telephonyservice" />
-    <allow-in-power-save package="com.qulacomm.qcrilmsgtunnel" />
-    <allow-in-power-save package="com.qualcomm.qti.ims" />
-    <allow-in-power-save package="com.qualcomm.qti.radioconfiginterface" />
+    <!-- <allow-in-power-save package="com.qualcomm.atfwd" /> -->
+    <!-- <allow-in-power-save package="com.qualcomm.embms" /> -->
+    <!-- <allow-in-power-save package="com.qualcomm.qti.telephonyservice" /> -->
+    <!-- <allow-in-power-save package="com.qulacomm.qcrilmsgtunnel" /> -->
+    <!-- <allow-in-power-save package="com.qualcomm.qti.ims" /> -->
+    <!-- <allow-in-power-save package="com.qualcomm.qti.radioconfiginterface" /> -->
 
     <!-- Pre-installed carrier apps which should be disabled until a matching SIM is inserted. -->
     <disabled-until-used-preinstalled-carrier-app package="com.google.android.apps.tycho" />
@@ -61,9 +61,9 @@
     <allow-in-data-usage-save package="com.google.android.tetheringentitlement" />
 
     <!-- Allow eMBMS middleware services to run in the background -->
-    <allow-in-power-save package="com.qualcomm.ltebc_vzw" />
-    <allow-in-power-save package="com.qualcomm.ltebc" />
+    <!-- <allow-in-power-save package="com.qualcomm.ltebc_vzw" /> -->
+    <!-- <allow-in-power-save package="com.qualcomm.ltebc" /> -->
 
     <!-- Allow gnss pixel monitor to run in the background -->
-    <allow-in-power-save package="com.google.android.gnsspixelmonitor" />
+    <!-- <allow-in-power-save package="com.google.android.gnsspixelmonitor" /> -->
 </config>

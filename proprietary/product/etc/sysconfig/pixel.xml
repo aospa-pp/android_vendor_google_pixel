@@ -49,17 +49,17 @@
     <allow-in-power-save-except-idle package="com.android.vending" />
 
     <!-- If the volta app is pre-installed (for monitoring power use), let it do checkins. -->
-    <allow-in-power-save package="com.google.android.volta" />
+    <!-- <allow-in-power-save package="com.google.android.volta" /> -->
 
     <!-- If GoogleCellBroadcastServiceModule is installed, let it run in the background -->
-    <allow-in-power-save package="com.google.android.cellbroadcastreceiver" />
+    <!-- <allow-in-power-save package="com.google.android.cellbroadcastreceiver" /> -->
 
     <!-- If "Personal Safety" app is installed, let it run in the background -->
-    <allow-in-power-save package="com.google.android.apps.safetyhub" />
+    <!-- <allow-in-power-save package="com.google.android.apps.safetyhub" /> -->
 
     <!-- If CarrierServices is installed, it must always have network access to
          reliably receive IMS messages. -->
-    <allow-in-power-save package="com.google.android.ims" />
+    <!-- <allow-in-power-save package="com.google.android.ims" /> -->
     <allow-in-data-usage-save package="com.google.android.ims" />
 
     <!-- Allow SetupWizard keeping at unrestricted mode of Battery usage. -->
@@ -143,6 +143,6 @@
 
     <!-- Allow device lock controller app to schedule jobs and alarms, and have network access when app
          in background; otherwise, it may not be able to enforce provision for managed devices. -->
-    <allow-in-power-save package="com.google.android.devicelockcontroller" />
+    <!-- <allow-in-power-save package="com.google.android.devicelockcontroller" /> -->
     <allow-in-data-usage-save package="com.google.android.devicelockcontroller" />
 </config>
